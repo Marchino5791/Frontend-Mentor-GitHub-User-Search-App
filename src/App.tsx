@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="max-w-[45.5rem] mt-8 mx-6 mb-20 sm:w-4/5 sm:mx-auto sm:mt-36 sm:mb-60">
+    <div className="w-full sm:w-4/5 max-w-[45.5rem] mx-6 sm:mx-auto ">
       <Header />
       <SearchBar
         message={data.message}
