@@ -55,7 +55,7 @@ export const LinkSection = ({
   const gitHubCompany = `https://github.com/${removedAt}`
 
   return (
-    <div className="col-start-1 lg:col-start-2 col-end-3 grid sm:grid-cols-2 gap-y-4 md:gap-y-5">
+    <ul className="col-start-1 lg:col-start-2 col-end-3 grid sm:grid-cols-2 gap-y-4 md:gap-y-5">
       <Link
         title={location}
         icon={locationIcon}
@@ -75,6 +75,6 @@ export const LinkSection = ({
         link={gitHubCompany}
         hover="hover:underline"
       />
-    </div>
+    </ul>
   )
 }
