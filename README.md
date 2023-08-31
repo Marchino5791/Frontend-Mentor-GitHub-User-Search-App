@@ -30,11 +30,11 @@ Users should be able to:
 
 ### Screenshot
 
-![GitHub User Search App screenshot](./screenshot.jpg)
+![GitHub User Search App screenshot](https://github.com/Marchino5791/Frontend-Mentor-GitHub-User-Search-App/blob/main/Screenshot%202023-08-31%2013.30.42.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Marchino5791/Frontend-Mentor-GitHub-User-Search-App](https://github.com/Marchino5791/Frontend-Mentor-GitHub-User-Search-App)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
