@@ -32,11 +32,6 @@ export const MainSection = ({
 }) => {
   // transform date
   const date: Date = new Date(joined)
-  const options: { year: string; month: string; day: string } = {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  }
 
   return (
     <main className="gap-x-5 sm:gap-x-10 lg:gap-x-9 bg-white rounded-2xl pt-8 px-6 pb-12 sm:p-10 lg:p-12 shadow-xl dark:bg-project-dark-darkgray">
@@ -59,7 +54,12 @@ export const MainSection = ({
           </a>
         </div>
         <p className="text-[0.8125rem] text-project-gray dark:text-white sm:text-[0.9375rem]">
-          Joined {date.toLocaleDateString('en-GB', options)}
+          Joined{' '}
+          {date.toLocaleDateString('en-GB', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+          })}
         </p>
       </div>
       <p className="col-start-1 lg:col-start-2 col-end-3 mt-8 sm:mt-6 lg:mt-5 mb-6 sm:mb-8 text-[0.8125rem] text-project-gray leading-6 dark:text-white sm:text-[0.9375rem]">
