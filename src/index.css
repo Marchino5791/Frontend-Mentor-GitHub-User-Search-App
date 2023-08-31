@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'space-mono', monospace;
+}
+
+main {
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+  grid-template-columns: 4.375rem 1fr;
+}
+
+@media screen and (min-width: 640px) {
+  main {
+    grid-template-columns: 7.25rem 1fr;
+  }
+}
