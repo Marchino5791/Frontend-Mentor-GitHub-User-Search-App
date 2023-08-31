@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marchino5791/Frontend-Mentor-GitHub-User-Search-App](https://github.com/Marchino5791/Frontend-Mentor-GitHub-User-Search-App)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://marchino5791.github.io/Frontend-Mentor-GitHub-User-Search-App/](https://marchino5791.github.io/Frontend-Mentor-GitHub-User-Search-App/)
 
 ## My process
 
